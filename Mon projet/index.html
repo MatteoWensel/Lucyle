@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Nous</title>
+<body>
+<header>
+    <a href="#" class="logo"><span>N</span>ous</a>
+    <div class="menuToggle" onclick="toggleMenu();"></div>
+    <ul class="navbar">
+        <li><a href="#banniere" onclick="toggleMenu();">Accueil</a></li>
+        <li><a href="#apropos" onclick="toggleMenu();">A propos</a></li>
+        <li><a href="#menu" onclick="toggleMenu();">photos</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        <a href="#" class="btn-reserve"onclick="toggleMenu();">Reserve ton date</a>
+    </ul>
+</header>
+<section class="banniere" id="banniere">
+    <div class="contenu">
+        <h2>Une histoire passionnante</h2>
+        <p>Une rencontre inatendue entre deux personne qui n'etaient pas sensé ce rencontrées. Une complicité facile dés le début de la relation.</p>
+        <a href="#" class="btn1">Notre histoire</a>
+    </div>
+</section>
+<section class="apropos" id="apropos">
+    <div class="row">
+        <div class="col50">
+            <h2 class="titre-texte"><span>A</span> Propos De Nous</h2>
+            <p>Dans chaque histoire, ont retrouves des hauts et des bas, chaques histoire a son lot de problème. La notre en avait peut etre plus que les autres, c'est peut etre meme sur, mais ça ne veut pas dire pour autant que c'etait mauvais, cela signifie simplement que nous avons travérsés plus de choses que les autres. Beaucoup de bon souvenir qui resteront gravés dans ma mémoire.
+                3 ans de relation ça ne s'arrete pas comme ça, chaque moment que je passe sans toi me ramène a des moments passé ensemble, bah oui 3 ans ont en a fais des choses. Comme nos voyages en Italie, surtout la fois ou on etait seul et qu'on etait en panne au millieu du carrefour, ça prouve encore une fois que ton tempérament qui a tendance a paniquer s'accorde bien avec mon tempérament calme.
+                Tes nombreuses victoire au bowling sans savoir que je te laissais gagné pour que tu sois contente "a part le minigolf t'as rien gagné". 
+                Je pense sincérement que c'etait pas une habitude, car avec ton caractere de merde super chiant je serais deja partit si je ne t'aimais pas vraiment.
+                
+            </p>
+        </div>
+        <div class="col50">
+            <div class="img">
+                <img src="./IMG_7789 2.jpeg" alt="image">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="photos" id="photos">
+    <div class="titre">
+        <h2 class="titre-texte"><span>Nos</span>Photos</h2>
+        <p>Merci pour tous ses souvenirs partagés ensemble.</p>
+    </div>
+    <div class="contenu">
+        <div class="box">
+            <div class="imbox">
+                <img src="./7D656C27-C815-402A-8B00-0AA815F8B98C.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Notre plus belle photo</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./IMG_5778.JPG" alt="">
+            </div>
+            <div class="text">
+                <h3>j'aime bien te faire croire que t'es lourde</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./IMG_5779.JPG" alt="">
+            </div>
+            <div class="text">
+                <h3>Le plus beau cadeau jamais porté</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./IMG_6503.JPG" alt="">
+            </div>
+            <div class="text">
+                <h3>Une de nos première photos ensemble + luna</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./IMG_5781.JPG" alt="">
+            </div>
+            <div class="text">
+                <h3>Tes photos improvisées devant chaque miroir..</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./IMG_2228.JPG" alt="">
+            </div>
+            <div class="text">
+                <h3>T'es la plus belle chose qui me sois arrivé.</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./IMG_5783.JPG" alt="">
+            </div>
+            <div class="text">
+                <h3>Gaché tes belles photos c'est un plaisir</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./IMG_5784.JPG" alt="">
+            </div>
+            <div class="text">
+                <h3>Je t'aime malgré tout</h3>
+            </div>
+        </div>
+    </div>
+ </div>
+ <div class="titre">
+    <a href="#" class="btn1">Voir Plus</a>
+ </div>
+</section>
+
+ <section class="Demande ton date" id="contact">
+     <div class="titre noir">
+         <h2 class="titre-text"><span>C</span>ontact</h2>
+         <p>Envoie un mail pour réserver un date </p>
+     </div>
+     <div class="contactform">
+         <h3>Envoyer un message</h3>
+         <div class="inputboite">
+             <input type="text" placeholder="Nom">
+         </div>
+         <div class="inputboite">
+            <input type="text" placeholder="email">
+         </div>
+         <div class="inputboite">
+            <textarea placeholder="message"></textarea>
+         </div>
+         <div class="inputboite">
+             <input type="submit" value="envoyer">
+         </div>
+     </div>
+ </section>
+ <div class="copyright">
+     <p>Pour le meilleur et pour le pire ? </p>
+ </div>
+ <script type="text/javascript">
+     window.addEventListener('scroll', function(){
+         const header =document.querySelector('header');
+         header.classList.toggle("sticky", window.scrollY > 0 );
+     });
+
+     function toggleMenu(){
+         const tmenuToggle = document.querySelector('.menuToggle');
+         const navbar = document.querySelector('.navbar');
+         navbar.classList.toggle('active');
+         menuToggle.classList.toggle('active');
+     }
+ </script>
+</body>
+</html>
